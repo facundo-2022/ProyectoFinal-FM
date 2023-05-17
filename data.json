@@ -1,0 +1,130 @@
+[
+    {
+        "id": "Marinara",
+        "titulo": "Marinara",
+        "imagen": "./mazzantta/p1.jpg",
+        "precio": 1550
+    },
+    {
+        "id": "calzone",
+        "titulo": "calzone",
+        "imagen":  "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "fugazza",
+        "titulo": "fugazza",
+        "imagen": "./mazzantta/p3.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "mozarella",
+        "titulo": "mozarella",
+        "imagen": "./mazzantta/p4.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "4quesos",
+        "titulo": "4quesos",
+        "imagen": "./mazzantta/p5.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1800
+    },
+    {
+        "id": "papa",
+        "titulo": "papa",
+        "imagen": "./mazzantta/p6.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1800
+    },
+    {
+        "id": "caprese",
+        "titulo": "caprese",
+        "imagen": "./mazzantta/p7jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1800
+    },
+    {
+        "id": "margherita",
+        "titulo": "margherita",
+        "imagen": "./mazzantta/p8.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "jamonymorron",
+        "titulo": "jamonymorron",
+        "imagen": "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "caprichosa",
+        "titulo": "Caprichosa",
+        "imagen": "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "diavola",
+        "titulo": "Diavola",
+        "imagen": "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "anchoas",
+        "titulo": "anchoas",
+        "imagen": "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1850
+    },
+    {
+        "id": "mazzanta",
+        "titulo": "mazzanta",
+        "imagen": "./mazzantta/p2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1900
+    }
+  
+   
+]
