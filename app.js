@@ -1,3 +1,5 @@
+ 
+
 const carrito = document.getElementById('carrito');
 const elementos = document.getElementById('lista-1');
 const lista = document.querySelector('#lista-carrito tbody');
@@ -112,4 +114,41 @@ function leerDatosElemento(elemento) {
     }
 
    
+   const Pizzas = [
     
+    {id: 1, nombre: "Marinara", precio: 1550 },
+    {id: 2, nombre: "Calzone", precio: 1700 },
+    {id: 3, nombre: "Fugazza", precio: 1700 },
+    {id: 4, nombre: "Mozzarella", precio: 1700},
+    {id: 5, nombre: "cuatroQuesos", precio: 1800 },
+    {id: 6, nombre: "Papa", precio: 1800 },
+    {id: 7, nombre: "Rucula", precio: 1800 },
+    {id: 8, nombre: "Caprese", precio: 1850 },
+    {id: 9, nombre: "Margherita", precio: 1850},
+    {id: 10, nombre: "JamonyMorron", precio: 1850},
+    {id: 11, nombre: "Caprichosa", precio: 1850 },
+    {id: 12, nombre: "Diavola", precio: 1850 },
+    {id: 13, nombre: "Anchoas", precio: 1900 },
+    {id: 14, nombre: "Mazzanta", precio: 2100 }
+
+ ];
+
+ localStorage.setItem("Pizzas", Pizzas);
+
+ 
+
+
+ //
+
+ fetch("./data.json")
+ .then((response) => {
+    if(response.ok) {
+        return response.json();
+    }else {
+        console.log(`Hubo un error en consultar datos: ${response.status}`);
+    }
+})
+.then((Pizzas) => {
+    console.log(Pizzas);
+});
+
